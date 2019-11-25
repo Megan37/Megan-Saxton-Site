@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+<!-- {{content}} -->
+
+<!-- <div class="portfolio-container">
+    <ul>
+        {{ for post in site.posts }}
+        <li><img src="{{site.baseurl}}/assets/img/{{page.img}}" alt="post"></li>
+        {{ endfor }}
+    </ul>
+</div> -->
+
+
+
+<!-- bar and logo -->
+
+<!-- <div class="green-bar">
+</div> -->
+
+<div class="logo-circle">
+  <img src="img/logo circle.svg" alt="logo">
+</div>
+
+<!-- nav -->
+
+<div class="portfolio" >
+    <nav class="nav-portfolio" >
+        <ul>
+        <li><a class="link" href="index.html">HOME</a></li>
+        <li><a class="link" href="portfolio.html">PORTFOLIO</a></li>
+        </ul>
+    </nav>
+</div>
+
+<!-- portfolio pieces -->
+
+<div class="portfolio-container">
+<ul>
+<li>
+    <div class="card-container">
+        <div class="card">
+          <div class="front">
+            <img src="{{site.baseurl}}/assets/img/{{page.img}}" alt="pic">
+          </div>
+          <div class="back">
+            <p>{{ page.description }}</p>
+          </div>
+        </div>
+    </div>
+</li>
+</ul>
+</div>
