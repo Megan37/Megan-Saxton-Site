@@ -38,6 +38,7 @@ layout: default
 
 <div class="portfolio-container">
 <ul>
+{% for design in site.posts %}
 <li>
     <div class="card-container">
         <div class="card">
@@ -50,5 +51,6 @@ layout: default
         </div>
     </div>
 </li>
+{% endfor %}
 </ul>
 </div>
