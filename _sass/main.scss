@@ -92,9 +92,19 @@ a {
   list-style-type:none;
 }
 
+.front > img {
+  width: 500px;
+  /* display: block;
+  height: auto; */
+}
+
 .portfolio-container > ul > li > img {
   margin:10px;
 } 
+
+p {
+  margin: 50px;
+}
 
 .portfolio-container {
   /* margin-left: 50px;
@@ -109,7 +119,7 @@ a {
 /* for the flip card */
 .card-container {
  
-  height: 500px;
+  height: 750px;
   width: 500px;
   background: none;
 
