@@ -21,15 +21,15 @@ title: portfolio page
 
 <div class="portfolio-container">
 <ul>
-{% for design in site.posts %}
+{% for post in site.posts %}
 <li>
     <div class="card-container">
         <div class="card">
           <div class="front">
-            <img src="{{site.baseurl}}/assets/img/{{design.img}}" alt="pic">
+            <img src="{{site.baseurl}}/assets/img/{{post.img}}" alt="pic">
           </div>
           <div class="back">
-            <p>{{ design.description }}</p>
+            <p>{{ post.description }}</p>
           </div>
         </div>
     </div>
